@@ -29,13 +29,13 @@ export default function Filter({ todo,setTodo, setFake, filterStatus, setFilterS
 	return (
 		<ul className="filters">
 			<li onClick={() => setFilterStatus('all')}>
-				<a className="selected">All</a>
+				<a href="#" className="selected">All</a>
 			</li>
 			<li onClick={() => setFilterStatus('active')}>
 				<a>Active</a>
 			</li>
 			<li onClick={() => setFilterStatus('completed')}>
-				<a>Completed</a>
+				<a href="#">Completed</a>
 			</li>
 			<li>
 				<button className="clear-completed" onClick={clearComplete}>Clear completed</button>

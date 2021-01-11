@@ -12,10 +12,10 @@ function App() {
 			<footer className="info">
 					<p>Click to edit a todo</p>
 					<p>
-						Created by <a href="https://d12n.me/">Ali Akıncı</a>
+						Created by <a href="#">Ali Akıncı</a>
 					</p>
 					<p>
-						Part of <a href="http://todomvc.com">TodoMVC</a>
+						Part of <a href="#">TodoMVC</a>
 					</p>
 				</footer>
 		 </>
